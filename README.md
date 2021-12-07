@@ -1,2 +1,2 @@
 # Mate-Rechner
-Berechnung des idealen Mate Bedarfs
+Berechnung des idealen Mate Konsums
