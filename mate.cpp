@@ -5,8 +5,10 @@
 #include <iostream>
 using namespace std;
 int main(){
-int mate;
-int Koffeingehalt;
+int mate, Koffeingehalt ;
+ 
+
+
 cout << "  **     **     **                   **                        \n";
 cout << "  **     **     **        ++         **                        \n";
 cout << " ****   ****   ****       ++        ****                       \n";
@@ -18,6 +20,7 @@ cout << "****************************************************************\n";
 cout << "* [i] Bitte gib die Anzahl der Mateflaschen an die du brauchst *\n";
 cout << "****************************************************************\n";
 cout <<"\n";
+cout <<"input: ";
 cin >> mate;
 if (mate < 2){
    cout <<"Für einen erfolgreichen Tag benötigst du mehr als 1 Flasche Mate";
@@ -34,4 +37,6 @@ cout <<"\n";
 cout <<"--------------------------------[Hinweis]--------------------------------\n";
 cout <<"Bitte Beachte: Erhöhter Koffeingehalt. Für Kinder und schwangere oder stillende Frauen nicht empfolen (Koffein: 20 mg/100ml)\n";
 cout <<"\n";
+
+
 }
