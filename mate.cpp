@@ -27,7 +27,7 @@ cout << "****************************************************************\n";
 cout <<"\n";
 cout <<"input: ";
 cin >> mate;
-cout << "Marke [1]Mio Mio Mate [2]Club Mate [3]Flora Mate\n";
+cout << "Marke [1]Mio Mio Mate [2]Club Mate [3]Flora Mate [4] Mate Mate\n";
 cout << "input: ";
 cin >> marke;
 if (mate < 2){
@@ -45,6 +45,9 @@ else if (mate > 1){
         break;
     case 3:
         Koffeingehalt = mate * 90;
+        break;
+    case 4:
+        Koffeingehalt = mate * 30;
         break;
     
     default:
@@ -69,7 +72,7 @@ else if (input == "N" || input == "n")
     cout << "Bitte gebe an wie viel Koffein du heute zu dir nehmen willst (in mg).\ninput: ";
     cin >> kmenge;
     cout << "Folgende Marken stehen zu verfügung\n";
-    cout << "[1] Mio Mio\n[2] Club Mate\n[3] Flora Mate\ninput: ";
+    cout << "[1] Mio Mio\n[2] Club Mate\n[3] Flora Mate\n[4] Mate Mate\ninput: ";
     cin >> marke;
     switch (marke)
     {
@@ -84,6 +87,10 @@ else if (input == "N" || input == "n")
     case 3:
         Koffeingehalt = 90;
         markenname = "Flora Mate";
+        break;
+    case 4: 
+        Koffeingehalt = 150;
+        markenname = "Mate Mate";
         break;
 
     default:
