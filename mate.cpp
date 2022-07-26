@@ -56,7 +56,7 @@ else if (mate > 1){
         Koffeingehalt = mate * 145;
         break;
     case 7:
-        Koffeingehalt = mate * 30;
+        Koffeingehalt = mate * 0;
         break;
     
     default:
