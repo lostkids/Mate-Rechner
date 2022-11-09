@@ -6,3 +6,4 @@ Berechnung des idealen Mate Konsums
 * compile: `make`
 * clean: `make clean`
 * run: `./mate`
+* install: `make install`
