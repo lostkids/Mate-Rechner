@@ -110,11 +110,9 @@ int main(){
             break;
         }
         ergebnis = kmenge / Koffeingehalt;
-        cout << "Für deinen Tag benötigst du " << ergebnis << " Flaschen " << markenname ;
-        cout <<"\n";
-        cout <<"--------------------------------[Hinweis]--------------------------------\n";
-        cout <<"Bitte Beachte: Erhöhter Koffeingehalt. Für Kinder und schwangere oder stillende Frauen nicht empfolen\n";
-        cout <<"\n";
+        cout << "Für deinen Tag benötigst du " << ergebnis << " Flaschen " << markenname <<"\n"
+        <<"--------------------------------[Hinweis]--------------------------------\n"
+        <<"Bitte Beachte: Erhöhter Koffeingehalt. Für Kinder und schwangere oder stillende Frauen nicht empfolen\n\n";
 
     }
     else 
