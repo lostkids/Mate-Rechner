@@ -67,7 +67,7 @@ else if (mate > 1){
 cout <<"du brauchst " <<mate <<" Flaschen Mate!!!\n";
 cout <<"der Koffeingehaltfür deine "<< mate<< " Flaschen liegt bei "<< Koffeingehalt << " mg\n";
 cout <<"\n";
-cout <<"Ein Enym sagte: du brauchst immer eine Mateflasche mehr als du hast\n";
+cout <<"Ein hyperbel sagte: du brauchst immer eine Mateflasche mehr als du hast\n";
 }
 cout <<"\n";
 cout <<"--------------------------------[Hinweis]--------------------------------\n";
