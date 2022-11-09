@@ -3,4 +3,6 @@ all:
 clean:
 	rm -v mate
 install:
-	sudo cp mate /usr/bin/mate
+	sudo cp -v mate /usr/bin/mate
+uninstall:
+	sudo rm -v /usr/bin/mate
