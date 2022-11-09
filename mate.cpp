@@ -7,8 +7,7 @@
 using namespace std;
 int main(){
     int  mate, Koffeingehalt, marke, kmenge, ergebnis;
-    string input;
-    string markenname;
+    string input, markenname;
 
     cout << "  **     **     **                   **                        \n";
     cout << "  **     **     **        ++         **                        \n";
