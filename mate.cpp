@@ -73,7 +73,7 @@ int main(){
         cout << "Bitte gebe an wie viel Koffein du heute zu dir nehmen willst (in mg).\ninput: ";
         cin >> kmenge;
         cout << "Folgende Marken stehen zu verfügung\n";
-        cout << "[1] Mio Mio\n[2] Club Mate\n[3] Flora Mate\n[4] Mate Mate\n[5] Buenos Mate\n[6] 1337 Mate\n[7] Charitea\ninput: ";
+        cout << "Marke [1] Mio Mio Mate [2] Club Mate [3] Buenos Mate [4] Mate Mate [5] Flora Mate [6] 1337 Mate [7] Charitea\ninput:";
         cin >> marke;
         switch (marke)
         {
@@ -105,7 +105,6 @@ int main(){
             Koffeingehalt = 0;
             markenname = "Charitea";
             break;
-
         default:
             break;
         }
