@@ -1,4 +1,4 @@
-// created by @fingadumbledore
+// created by @fingadumbledore & @hyperbel
 // Eine Mateflasche = 500 Ml
 // Das Projekt ist nur zum Spaß und Sollte nicht Ernst genommen werden
 // Der Konsum von zu viel Zucker und Koffein ist nicht Gesund und kann Gesundheitliche Schäden bewirken
@@ -112,10 +112,9 @@ int main(){
         cout << "Für deinen Tag benötigst du " << ergebnis << " Flaschen " << markenname <<"\n"
         <<"--------------------------------[Hinweis]--------------------------------\n"
         <<"Bitte Beachte: Erhöhter Koffeingehalt. Für Kinder und schwangere oder stillende Frauen nicht empfolen\n\n";
-
     }
+    
     else 
         cout << "Error";
-
 }
 
