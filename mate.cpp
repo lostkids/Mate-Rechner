@@ -54,7 +54,7 @@ int main(){
                     break;
 
                 default:
-                    cout << "Dies ist keine gute Sorte\n";
+                    cout << "Dies ist keine gute Sorte, bitte reiche \neine pull request auf github ein\n";
                     break;
             }
 
