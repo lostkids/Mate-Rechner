@@ -1,5 +1,5 @@
 all:
-	g++ -v mate.cpp -o mate
+	g++ -v mate.cpp mate.hpp -o mate
 clean:
 	rm -v mate
 install:

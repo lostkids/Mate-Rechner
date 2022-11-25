@@ -4,11 +4,11 @@
 // Der Konsum von zu viel Zucker und Koffein ist nicht Gesund und kann Gesundheitliche Schäden bewirken
 // Version 1.3
 #include <iostream>
+#include "mate.hpp"
 using namespace std;
 int main(){
-    int  mate, Koffeingehalt, marke, kmenge, ergebnis;
+    int mate, Koffeingehalt, marke, kmenge, ergebnis;
     string input, markenname;
-
     cout << "  **     **     **                   **                        \n";
     cout << "  **     **     **        ++         **                        \n";
     cout << " ****   ****   ****       ++        ****                       \n";
