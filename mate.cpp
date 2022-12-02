@@ -4,11 +4,11 @@
 // Der Konsum von zu viel Zucker und Koffein ist nicht Gesund und kann Gesundheitliche Schäden bewirken
 // Version 1.3
 #include <iostream>
-#include "mate.hpp"
 using namespace std;
 int main(){
-    int mate, Koffeingehalt, marke, kmenge, ergebnis;
+    int  mate, Koffeingehalt, marke, kmenge, ergebnis;
     string input, markenname;
+
     cout << "  **     **     **                   **                        \n";
     cout << "  **     **     **        ++         **                        \n";
     cout << " ****   ****   ****       ++        ****                       \n";
@@ -29,7 +29,7 @@ int main(){
             cout << "Für einen erfolgreichen Tag benötigst du mehr als 1 Flasche Mate";
             return 0;
         }
-        cout << "Marke [1] Mio Mio Mate [2] Club Mate [3] Buenos Mate [4] Mate Mate [5] Flora Mate [6] 1337 Mate [7] Charitea\n"
+        cout << "Marke [1] Mio Mio Mate [2] Club Mate [3] Buenos Mate [4] Mate Mate [5] Flora Mate [6] 1337 Mate [7] Charitea Mate [8] Bionade Mate\n"
         << "input: ";
         cin >> marke;
             mate = mate +1;
@@ -50,9 +50,11 @@ int main(){
                     Koffeingehalt = mate * 145;
                     break;
                 case 7:
-                    Koffeingehalt = mate * 0;
+                    Koffeingehalt = mate * 15;
                     break;
-
+                case 8:
+                    Koffeingehalt = mate * 20;
+                    break;
                 default:
                     cout << "Dies ist keine gute Sorte, bitte reiche \neine pull request auf github ein\n";
                     break;
@@ -73,7 +75,7 @@ int main(){
         cout << "Bitte gebe an wie viel Koffein du heute zu dir nehmen willst (in mg).\ninput: ";
         cin >> kmenge;
         cout << "Folgende Marken stehen zu verfügung\n";
-        cout << "Marke [1] Mio Mio Mate [2] Club Mate [3] Buenos Mate [4] Mate Mate [5] Flora Mate [6] 1337 Mate [7] Charitea\ninput:";
+        cout << "Marke [1] Mio Mio Mate [2] Club Mate [3] Buenos Mate [4] Mate Mate [5] Flora Mate [6] 1337 Mate [7] Charitea Mate [8] Bionade Mate\ninput:";
         cin >> marke;
         switch (marke)
         {
@@ -102,8 +104,12 @@ int main(){
             markenname = "1337 Mate";
             break;
         case 7: 
-            Koffeingehalt = 0;
-            markenname = "Charitea";
+            Koffeingehalt = 15;
+            markenname = "Charitea Mate";
+            break;
+        case 8:
+            Koffeingehalt = 20;
+            markenname = "Bionade Mate";
             break;
         default:
             break;
