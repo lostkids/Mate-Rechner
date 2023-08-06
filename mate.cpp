@@ -133,7 +133,7 @@ int main(){
 
         cout <<"du brauchst " <<mate <<" Flaschen Mate!!!\n"
              <<"der Koffeingehaltfür deine "<< mate<< " Flaschen liegt bei "<< Koffeingehalt << " mg.\n\n"
-             <<"Ein hyperbel sagte: du brauchst immer eine Mateflasche mehr als du hast\n\n"
+             <<"Eine hyperbel sagte: du brauchst immer eine Mateflasche mehr als du hast\n\n"
              <<"--------------------------------[Hinweis]--------------------------------\n"
              <<"Bitte Beachte: Erhöhter Koffeingehalt. Für Kinder und schwangere oder stillende Frauen nicht empfolen\n\n";
     }
